@@ -165,18 +165,18 @@ function mostrarResultados() {
 function esFeriado(fecha) {
     const feriados = [
         //Los (año, mes, dia) los meses estan al -1 los dias tambien(en otras palabras la fecha 1/1/2023 es (2023,00,0))
-        new Date(2023, 0, 1),  // Año Nuevo
-        new Date(2023, 2, 24), // Carnaval
-        new Date(2023, 2, 25), // Carnaval
-        new Date(2023, 3, 2),  // Día del Veterano y de los Caídos en la Guerra de Malvinas
-        new Date(2023, 3, 24), // Viernes Santo
-        new Date(2023, 4, 2),  // Día del Trabajador
-        new Date(2023, 5, 25), // Día de la Revolución de Mayo
-        new Date(2023, 6, 9),  // Día de la Independencia
-        new Date(2023, 7, 21), // Día del Paso a la Inmortalidad del Gral. José de San Martín
-        new Date(2023, 9, 15), // Día del Respeto a la Diversidad Cultural
-        new Date(2023, 10, 19) //Soberania Nacional
-        new Date(2023, 11, 25),// Navidad
+        new Date(2024, 0, 1),  // Año Nuevo
+        new Date(2024, 2, 12), // Carnaval
+        new Date(2024, 2, 13), // Carnaval
+        new Date(2024, 2, 24), // Día del Veterano y de los Caídos en la Guerra de Malvinas
+        new Date(2024, 2, 29), // Viernes Santo
+        new Date(2024, 4, 1),  // Día del Trabajador
+        new Date(2024, 4, 25), // Día de la Revolución de Mayo
+        new Date(2024, 6, 9),  // Día de la Independencia
+        new Date(2024, 7, 17), // Paso a la Inmortalidad del Gral. José de San Martín
+        new Date(2024, 9, 14), // Día del Respeto a la Diversidad Cultural
+        new Date(2024, 10, 18), // Día de la Soberanía Nacional
+        new Date(2024, 11, 25)  // Navidad
     ];
 
     for (const feriado of feriados) {
